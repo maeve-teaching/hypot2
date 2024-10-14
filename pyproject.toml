@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hypot2"
+description = "A simple Python project"
+version = "0.0.1"
+readme = "README.md"
+authors = [
+{ name="Author Full Name", email="authors_email@goes_here.ie" },
+]
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy>=1.21.2",
+]

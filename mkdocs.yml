@@ -1,0 +1,13 @@
+site_name: Hypot2 Documentation
+
+theme:
+  name: "material"
+
+plugins:
+- mkdocstrings:
+    handlers:
+      python:
+        paths: [src]  # search packages in the src folder
+
+nav:
+  - Index: index.md
