@@ -1,9 +1,6 @@
 # Module to calculate the hypotenuse of a
 # right angled triangle
 
-# Function to check input is float/integer
-# Throw error if not
-
 # Function to add two numbers together
 # input: floats or int or list/array of ints/floats
 def add_nums(a, b):
