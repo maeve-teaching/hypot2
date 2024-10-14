@@ -29,3 +29,31 @@ def test_add_nums_arrays():
 
     # Assert
     assert np.allclose(expected_output, output)
+
+def test_square_number():
+    '''Test for the example function'''
+
+    # Arrange
+    test_variable_1 = 7
+    expected_output = 49
+
+    # Act
+    output = hypot2.pythag.square_number(test_variable_1)
+
+    # Assert
+    assert output == expected_output
+
+    # No cleanup needed
+
+def test_square_array():
+    '''Test for the example function'''
+
+    # Arrange
+    test_array_1 = np.array([7, 4, 5])
+    expected_output = np.array([49, 16, 25])
+
+    # Act
+    output = hypot2.pythag.square_number(test_array_1)
+
+    # Assert
+    assert np.allclose(expected_output, output)
