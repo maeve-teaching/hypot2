@@ -1,3 +1,5 @@
+scratch.py
+
 # for devcontainer/codespaces set-up
 .devcontainer/activateEnv.sh
 .devcontainer/postCreateCommands.sh
